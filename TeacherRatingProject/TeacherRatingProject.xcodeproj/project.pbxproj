@@ -10,13 +10,13 @@
 		2AEA0BA1C2D31F06BF5283C4 /* Pods_TeacherRatingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D8CD3C5C8CE87820AD20EC /* Pods_TeacherRatingProject.framework */; };
 		60056AC129BA3F860067E556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60056AC029BA3F860067E556 /* AppDelegate.swift */; };
 		60056AC329BA3F860067E556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60056AC229BA3F860067E556 /* SceneDelegate.swift */; };
-		60056AC529BA3F860067E556 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60056AC429BA3F860067E556 /* MainVC.swift */; };
+		60056AC529BA3F860067E556 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60056AC429BA3F860067E556 /* LoginVC.swift */; };
 		60056AC829BA3F860067E556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60056AC629BA3F860067E556 /* Main.storyboard */; };
 		60056ACA29BA3F880067E556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60056AC929BA3F880067E556 /* Assets.xcassets */; };
 		60056ACD29BA3F880067E556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60056ACB29BA3F880067E556 /* LaunchScreen.storyboard */; };
 		60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2129BA40CD0014B743 /* StudentModel.swift */; };
 		60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2329BA41410014B743 /* MainPresenter.swift */; };
-		60A29C2729BA418F0014B743 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* LoginVC.swift */; };
+		60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* ForgotVC.swift */; };
 		60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2929BA448E0014B743 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +24,14 @@
 		60056ABD29BA3F860067E556 /* TeacherRatingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherRatingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60056AC029BA3F860067E556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60056AC229BA3F860067E556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60056AC429BA3F860067E556 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		60056AC429BA3F860067E556 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		60056AC729BA3F860067E556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60056AC929BA3F880067E556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60056ACC29BA3F880067E556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60056ACE29BA3F880067E556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A29C2129BA40CD0014B743 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		60A29C2329BA41410014B743 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
-		60A29C2629BA418F0014B743 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		60A29C2629BA418F0014B743 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
 		60A29C2929BA448E0014B743 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		6745BED547BF1DF5BCA5CA47 /* Pods-TeacherRatingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherRatingProject.release.xcconfig"; path = "Target Support Files/Pods-TeacherRatingProject/Pods-TeacherRatingProject.release.xcconfig"; sourceTree = "<group>"; };
 		75D8CD3C5C8CE87820AD20EC /* Pods_TeacherRatingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeacherRatingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +96,8 @@
 		60A29C1E29BA407D0014B743 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				60056AC429BA3F860067E556 /* MainVC.swift */,
-				60A29C2629BA418F0014B743 /* LoginVC.swift */,
+				60056AC429BA3F860067E556 /* LoginVC.swift */,
+				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,8 +252,8 @@
 			files = (
 				60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */,
 				60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */,
-				60056AC529BA3F860067E556 /* MainVC.swift in Sources */,
-				60A29C2729BA418F0014B743 /* LoginVC.swift in Sources */,
+				60056AC529BA3F860067E556 /* LoginVC.swift in Sources */,
+				60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */,
 				60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */,
 				60056AC129BA3F860067E556 /* AppDelegate.swift in Sources */,
 				60056AC329BA3F860067E556 /* SceneDelegate.swift in Sources */,

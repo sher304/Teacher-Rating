@@ -17,6 +17,7 @@
 		60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2129BA40CD0014B743 /* StudentModel.swift */; };
 		60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2329BA41410014B743 /* MainPresenter.swift */; };
 		60A29C2729BA418F0014B743 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* LoginVC.swift */; };
+		60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2929BA448E0014B743 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		60A29C2129BA40CD0014B743 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		60A29C2329BA41410014B743 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		60A29C2629BA418F0014B743 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		60A29C2929BA448E0014B743 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		6745BED547BF1DF5BCA5CA47 /* Pods-TeacherRatingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherRatingProject.release.xcconfig"; path = "Target Support Files/Pods-TeacherRatingProject/Pods-TeacherRatingProject.release.xcconfig"; sourceTree = "<group>"; };
 		75D8CD3C5C8CE87820AD20EC /* Pods_TeacherRatingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeacherRatingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF42C8A1D591F914D1D0FD92 /* Pods-TeacherRatingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherRatingProject.debug.xcconfig"; path = "Target Support Files/Pods-TeacherRatingProject/Pods-TeacherRatingProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		60056ABF29BA3F860067E556 /* TeacherRatingProject */ = {
 			isa = PBXGroup;
 			children = (
+				60A29C2829BA44770014B743 /* Extensions */,
 				60A29C2029BA40C30014B743 /* Presenter */,
 				60A29C1F29BA40A60014B743 /* Model */,
 				60A29C1E29BA407D0014B743 /* View */,
@@ -113,6 +116,14 @@
 				60A29C2329BA41410014B743 /* MainPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		60A29C2829BA44770014B743 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60A29C2929BA448E0014B743 /* CustomColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E1C0ED698D692D6198697E5D /* Pods */ = {
@@ -240,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */,
+				60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */,
 				60056AC529BA3F860067E556 /* MainVC.swift in Sources */,
 				60A29C2729BA418F0014B743 /* LoginVC.swift in Sources */,
 				60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */,

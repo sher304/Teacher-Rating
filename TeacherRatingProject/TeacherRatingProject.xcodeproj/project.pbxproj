@@ -14,6 +14,8 @@
 		60056AC829BA3F860067E556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60056AC629BA3F860067E556 /* Main.storyboard */; };
 		60056ACA29BA3F880067E556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60056AC929BA3F880067E556 /* Assets.xcassets */; };
 		60056ACD29BA3F880067E556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60056ACB29BA3F880067E556 /* LaunchScreen.storyboard */; };
+		606751BA29BD000C004BAE59 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751B929BD000C004BAE59 /* ProfileVC.swift */; };
+		606751BC29BD03F1004BAE59 /* DetailProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */; };
 		60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2129BA40CD0014B743 /* StudentModel.swift */; };
 		60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2329BA41410014B743 /* MainPresenter.swift */; };
 		60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* ForgotVC.swift */; };
@@ -32,6 +34,8 @@
 		60056AC929BA3F880067E556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60056ACC29BA3F880067E556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60056ACE29BA3F880067E556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606751B929BD000C004BAE59 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProfileVC.swift; sourceTree = "<group>"; };
 		60A29C2129BA40CD0014B743 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		60A29C2329BA41410014B743 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		60A29C2629BA418F0014B743 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
 				60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */,
 				60A29C3129BCB2510014B743 /* MainVC.swift */,
+				606751B929BD000C004BAE59 /* ProfileVC.swift */,
+				606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */,
+				606751BC29BD03F1004BAE59 /* DetailProfileVC.swift in Sources */,
 				60A29C3229BCB2510014B743 /* MainVC.swift in Sources */,
 				60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */,
 				60056AC529BA3F860067E556 /* LoginVC.swift in Sources */,
@@ -268,6 +275,7 @@
 				60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */,
 				60A29C3029BCB0EB0014B743 /* GetCodeVC.swift in Sources */,
 				60056AC129BA3F860067E556 /* AppDelegate.swift in Sources */,
+				606751BA29BD000C004BAE59 /* ProfileVC.swift in Sources */,
 				60056AC329BA3F860067E556 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

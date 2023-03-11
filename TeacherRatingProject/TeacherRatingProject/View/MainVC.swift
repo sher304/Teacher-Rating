@@ -30,13 +30,6 @@ class MainVC: UIViewController {
         return image
     }()
     
-    private lazy var mainImage: UIImageView = {
-        let image = UIImageView()
-        image.image = UIImage(named: "students")
-        image.contentMode = .scaleAspectFill
-        return image
-    }()
-    
     private lazy var profileButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "person.circle"), for: .normal)
@@ -44,6 +37,13 @@ class MainVC: UIViewController {
         button.imageEdgeInsets = UIEdgeInsets(top: 30, left: 30, bottom: 30, right: 30)
         button.tintColor = .gray
         return button
+    }()
+    
+    private lazy var mainImage: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(named: "students")
+        image.contentMode = .scaleAspectFill
+        return image
     }()
     
     override func viewDidLoad() {

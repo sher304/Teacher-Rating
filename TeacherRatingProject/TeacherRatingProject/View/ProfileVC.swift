@@ -18,7 +18,7 @@ class ProfileVC: UIViewController {
     }()
     
     private lazy var cancelButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "xmark"), for: .normal)
         button.tintColor = .black
         return button

@@ -1,14 +1,14 @@
 //
-//  LoginVC.swift
+//  GetCodeVC.swift
 //  TeacherRatingProject
 //
-//  Created by Шермат Эшеров on 09/03/2023.
+//  Created by Шермат Эшеров on 11/03/2023.
 //
-
 import UIKit
 import SnapKit
 
-class ForgotVC: UIViewController {
+
+class GetCodeVC: UIViewController {
     
     private lazy var mainView: UIView = {
         let view = UIView()
@@ -23,7 +23,7 @@ class ForgotVC: UIViewController {
         label.textColor = .white
         return label
     }()
-
+    
     private lazy var semiView: UIView = {
         let view = UIView()
         view.backgroundColor = .tintBeige
@@ -33,30 +33,12 @@ class ForgotVC: UIViewController {
     
     private lazy var enterNewPassword: UILabel = {
         let label = UILabel()
-        label.text = "Вести новый пароль"
+        label.text = "E-mail"
         label.font = .systemFont(ofSize: 16, weight: .semibold)
         return label
     }()
     
     private lazy var passwordField: LeftPaddedTextField = {
-        let textF = LeftPaddedTextField()
-        textF.autocorrectionType = .no
-        textF.autocapitalizationType = .none
-        textF.placeholder = "Введите пароль"
-        textF.layer.borderWidth = 0.2
-        textF.layer.cornerRadius = 13
-        return textF
-    }()
-    
-    
-    private lazy var enterNewConfirmPassword: UILabel = {
-        let label = UILabel()
-        label.text = "Подтвердить новый пароль"
-        label.font = .systemFont(ofSize: 16, weight: .semibold)
-        return label
-    }()
-    
-    private lazy var passwordConfirmField: LeftPaddedTextField = {
         let textF = LeftPaddedTextField()
         textF.autocorrectionType = .no
         textF.autocapitalizationType = .none
@@ -100,7 +82,7 @@ class ForgotVC: UIViewController {
         semiView.snp.makeConstraints { make in
             make.leading.equalTo(20)
             make.trailing.equalTo(-20)
-            make.height.equalTo(235)
+            make.height.equalTo(145)
             make.top.equalTo(forgotPasswordLabel.snp.bottom).offset(57)
         }
         
@@ -118,20 +100,6 @@ class ForgotVC: UIViewController {
             make.top.equalTo(enterNewPassword.snp.bottom).offset(9)
         }
         
-        semiView.addSubview(enterNewConfirmPassword)
-        enterNewConfirmPassword.snp.makeConstraints { make in
-            make.leading.equalTo(enterNewPassword.snp.leading)
-            make.top.equalTo(passwordField.snp.bottom).offset(20)
-        }
-        
-        semiView.addSubview(passwordConfirmField)
-        passwordConfirmField.snp.makeConstraints { make in
-            make.leading.equalTo(passwordField.snp.leading)
-            make.trailing.equalTo(passwordField.snp.trailing)
-            make.height.equalTo(30)
-            make.top.equalTo(enterNewConfirmPassword.snp.bottom).offset(10)
-        }
-        
         semiView.addSubview(enterButton)
         enterButton.snp.makeConstraints { make in
             make.leading.equalTo(20)
@@ -141,3 +109,5 @@ class ForgotVC: UIViewController {
         }
     }
 }
+
+

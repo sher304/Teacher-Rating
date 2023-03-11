@@ -44,8 +44,8 @@ class LoginVC: UIViewController {
         return label
     }()
     
-    private lazy var userNameField: UITextField = {
-        let textF = UITextField()
+    private lazy var userNameField: LeftPaddedTextField = {
+        let textF = LeftPaddedTextField()
         textF.layer.cornerRadius = 8
         textF.layer.borderColor = UIColor.black.cgColor
         textF.layer.borderWidth = 0.2
@@ -60,8 +60,8 @@ class LoginVC: UIViewController {
         return label
     }()
     
-    private lazy var passwordField: UITextField = {
-        let textF = UITextField()
+    private lazy var passwordField: LeftPaddedTextField = {
+        let textF = LeftPaddedTextField()
         textF.layer.cornerRadius = 8
         textF.layer.borderColor = UIColor.black.cgColor
         textF.layer.borderWidth = 0.2

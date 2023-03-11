@@ -18,6 +18,9 @@
 		60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2329BA41410014B743 /* MainPresenter.swift */; };
 		60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* ForgotVC.swift */; };
 		60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2929BA448E0014B743 /* CustomColor.swift */; };
+		60A29C2C29BCB02D0014B743 /* LeftPaddedTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2B29BCB02D0014B743 /* LeftPaddedTF.swift */; };
+		60A29C3029BCB0EB0014B743 /* GetCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */; };
+		60A29C3229BCB2510014B743 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C3129BCB2510014B743 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		60A29C2329BA41410014B743 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		60A29C2629BA418F0014B743 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
 		60A29C2929BA448E0014B743 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		60A29C2B29BCB02D0014B743 /* LeftPaddedTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPaddedTF.swift; sourceTree = "<group>"; };
+		60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCodeVC.swift; sourceTree = "<group>"; };
+		60A29C3129BCB2510014B743 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		6745BED547BF1DF5BCA5CA47 /* Pods-TeacherRatingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherRatingProject.release.xcconfig"; path = "Target Support Files/Pods-TeacherRatingProject/Pods-TeacherRatingProject.release.xcconfig"; sourceTree = "<group>"; };
 		75D8CD3C5C8CE87820AD20EC /* Pods_TeacherRatingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeacherRatingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF42C8A1D591F914D1D0FD92 /* Pods-TeacherRatingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherRatingProject.debug.xcconfig"; path = "Target Support Files/Pods-TeacherRatingProject/Pods-TeacherRatingProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +104,8 @@
 			children = (
 				60056AC429BA3F860067E556 /* LoginVC.swift */,
 				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
+				60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */,
+				60A29C3129BCB2510014B743 /* MainVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				60A29C2929BA448E0014B743 /* CustomColor.swift */,
+				60A29C2B29BCB02D0014B743 /* LeftPaddedTF.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -251,10 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */,
+				60A29C3229BCB2510014B743 /* MainVC.swift in Sources */,
 				60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */,
 				60056AC529BA3F860067E556 /* LoginVC.swift in Sources */,
 				60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */,
+				60A29C2C29BCB02D0014B743 /* LeftPaddedTF.swift in Sources */,
 				60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */,
+				60A29C3029BCB0EB0014B743 /* GetCodeVC.swift in Sources */,
 				60056AC129BA3F860067E556 /* AppDelegate.swift in Sources */,
 				60056AC329BA3F860067E556 /* SceneDelegate.swift in Sources */,
 			);

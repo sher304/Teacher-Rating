@@ -7,5 +7,7 @@ target 'TeacherRatingProject' do
 
   # Pods for TeacherRatingProject
 	pod 'SnapKit'
-	pod 'SideMenuSwift'
+	pod 'Hero'
+
+
 end

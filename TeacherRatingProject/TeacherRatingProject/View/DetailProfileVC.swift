@@ -21,6 +21,7 @@ class DetailProfileVC: UIViewController {
         let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "xmark"), for: .normal)
         button.tintColor = .black
+        button.addTarget(self, action: #selector(dismissTapped), for: .touchUpInside)
         return button
     }()
 
@@ -80,6 +81,7 @@ class DetailProfileVC: UIViewController {
     }
     
     private func setupconstraints(){
+        view.backgroundColor = .none
         
         view.addSubview(containerView)
         containerView.snp.makeConstraints { make in
@@ -135,6 +137,10 @@ class DetailProfileVC: UIViewController {
             make.centerX.equalToSuperview()
             make.top.equalTo(lineView.snp.bottom).offset(13)
         }
+    }
+    
+    @objc func dismissTapped(){
+        dismiss(animated: true)
     }
     
 }

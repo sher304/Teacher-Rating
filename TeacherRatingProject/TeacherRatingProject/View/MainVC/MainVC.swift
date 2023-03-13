@@ -9,8 +9,16 @@ import UIKit
 import Hero
 import SnapKit
 
-class MainVC: UIViewController {
+protocol MainVCDelegate: AnyObject {
+    
+}
 
+
+
+class MainVC: UIViewController {
+    
+    var presenter: MainPresenterDelegate!
+    
     private lazy var firstBGView: UIView = {
         let view = UIView()
         view.backgroundColor = .tintBeige
@@ -63,7 +71,7 @@ class MainVC: UIViewController {
         button.addTarget(self, action: #selector(dismissTapped), for: .touchUpInside)
         return button
     }()
-
+    
     
     private lazy var profileImage: UIImageView = {
         let image = UIImageView()
@@ -117,9 +125,11 @@ class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupconstraints()
+        presenter.viewDidLoad()
     }
     
     private func setupconstraints(){
+        
         view.backgroundColor = .customDarkGreen
         view.addSubview(firstBGView)
         firstBGView.snp.makeConstraints { make in
@@ -217,12 +227,16 @@ class MainVC: UIViewController {
     @objc func dismissTapped(){
         UIView.animate(withDuration: 0.5, delay: 0.0, options: [.curveEaseIn]) {
             self.conatinerOfDetailView.alpha = 0
-            } completion: { _ in }
+        } completion: { _ in }
     }
     
     func dateFieldAnimationOpen(){
         UIView.animate(withDuration: 0.4, delay: 0.0, options: [.curveEaseIn]) {
             self.conatinerOfDetailView.alpha = 1
-            } completion: { _ in }    }
+        } completion: { _ in }    }
+    
+}
 
+extension MainVC: MainVCDelegate{
+    
 }

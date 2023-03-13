@@ -8,7 +8,13 @@
 import UIKit
 import SnapKit
 
+protocol LoginVCDelegate: AnyObject{
+    
+}
+
 class LoginVC: UIViewController {
+    
+    var presenter: LoginPresenterDelegate!
     
     private lazy var beigeBGImage: UIImageView = {
         let imageV = UIImageView()
@@ -90,6 +96,7 @@ class LoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupconstraints()
+        presenter.viewDidLoad()
     }
     
     private func setupconstraints(){
@@ -164,4 +171,8 @@ class LoginVC: UIViewController {
             make.top.equalTo(mainInfromV.snp.bottom).offset(27)
         }   
     }
+}
+
+extension LoginVC: LoginVCDelegate{
+    
 }

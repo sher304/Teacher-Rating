@@ -17,6 +17,8 @@
 		606751BA29BD000C004BAE59 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751B929BD000C004BAE59 /* ProfileVC.swift */; };
 		606751BC29BD03F1004BAE59 /* DetailProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */; };
 		606751BF29BF6F1E004BAE59 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751BE29BF6F1E004BAE59 /* MainBuilder.swift */; };
+		606751C229BF8808004BAE59 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751C129BF8808004BAE59 /* LoginPresenter.swift */; };
+		606751C429BF880D004BAE59 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606751C329BF880D004BAE59 /* LoginBuilder.swift */; };
 		60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2129BA40CD0014B743 /* StudentModel.swift */; };
 		60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2329BA41410014B743 /* MainPresenter.swift */; };
 		60A29C2729BA418F0014B743 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A29C2629BA418F0014B743 /* ForgotVC.swift */; };
@@ -38,6 +40,8 @@
 		606751B929BD000C004BAE59 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProfileVC.swift; sourceTree = "<group>"; };
 		606751BE29BF6F1E004BAE59 /* MainBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		606751C129BF8808004BAE59 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		606751C329BF880D004BAE59 /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
 		60A29C2129BA40CD0014B743 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		60A29C2329BA41410014B743 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		60A29C2629BA418F0014B743 /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
@@ -114,11 +118,21 @@
 			path = MainVC;
 			sourceTree = "<group>";
 		};
+		606751C029BF87E6004BAE59 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				60056AC429BA3F860067E556 /* LoginVC.swift */,
+				606751C129BF8808004BAE59 /* LoginPresenter.swift */,
+				606751C329BF880D004BAE59 /* LoginBuilder.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
 		60A29C1E29BA407D0014B743 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				606751C029BF87E6004BAE59 /* LoginVC */,
 				606751BD29BF6F12004BAE59 /* MainVC */,
-				60056AC429BA3F860067E556 /* LoginVC.swift */,
 				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
 				60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */,
 				606751B929BD000C004BAE59 /* ProfileVC.swift */,
@@ -278,6 +292,7 @@
 			files = (
 				60A29C2429BA41410014B743 /* MainPresenter.swift in Sources */,
 				606751BC29BD03F1004BAE59 /* DetailProfileVC.swift in Sources */,
+				606751C229BF8808004BAE59 /* LoginPresenter.swift in Sources */,
 				60A29C3229BCB2510014B743 /* MainVC.swift in Sources */,
 				60A29C2A29BA448E0014B743 /* CustomColor.swift in Sources */,
 				60056AC529BA3F860067E556 /* LoginVC.swift in Sources */,
@@ -287,6 +302,7 @@
 				60A29C2229BA40CD0014B743 /* StudentModel.swift in Sources */,
 				60A29C3029BCB0EB0014B743 /* GetCodeVC.swift in Sources */,
 				60056AC129BA3F860067E556 /* AppDelegate.swift in Sources */,
+				606751C429BF880D004BAE59 /* LoginBuilder.swift in Sources */,
 				606751BA29BD000C004BAE59 /* ProfileVC.swift in Sources */,
 				60056AC329BA3F860067E556 /* SceneDelegate.swift in Sources */,
 			);

@@ -109,34 +109,65 @@
 			path = TeacherRatingProject;
 			sourceTree = "<group>";
 		};
-		606751BD29BF6F12004BAE59 /* MainVC */ = {
+		606751BD29BF6F12004BAE59 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				60A29C3129BCB2510014B743 /* MainVC.swift */,
 				606751BE29BF6F1E004BAE59 /* MainBuilder.swift */,
 			);
-			path = MainVC;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		606751C029BF87E6004BAE59 /* LoginVC */ = {
+		606751C029BF87E6004BAE59 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				60056AC429BA3F860067E556 /* LoginVC.swift */,
-				606751C129BF8808004BAE59 /* LoginPresenter.swift */,
 				606751C329BF880D004BAE59 /* LoginBuilder.swift */,
 			);
-			path = LoginVC;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		606751C529BF8955004BAE59 /* Forgot */ = {
+			isa = PBXGroup;
+			children = (
+				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
+			);
+			path = Forgot;
+			sourceTree = "<group>";
+		};
+		606751C629BF8959004BAE59 /* Get Code */ = {
+			isa = PBXGroup;
+			children = (
+				60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */,
+			);
+			path = "Get Code";
+			sourceTree = "<group>";
+		};
+		606751C729BF895D004BAE59 /* Detail Profile */ = {
+			isa = PBXGroup;
+			children = (
+				606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */,
+			);
+			path = "Detail Profile";
+			sourceTree = "<group>";
+		};
+		606751C829BF8969004BAE59 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				606751B929BD000C004BAE59 /* ProfileVC.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		60A29C1E29BA407D0014B743 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				606751C029BF87E6004BAE59 /* LoginVC */,
-				606751BD29BF6F12004BAE59 /* MainVC */,
-				60A29C2629BA418F0014B743 /* ForgotVC.swift */,
-				60A29C2F29BCB0EB0014B743 /* GetCodeVC.swift */,
-				606751B929BD000C004BAE59 /* ProfileVC.swift */,
-				606751BB29BD03F1004BAE59 /* DetailProfileVC.swift */,
+				606751C829BF8969004BAE59 /* Profile */,
+				606751C729BF895D004BAE59 /* Detail Profile */,
+				606751C629BF8959004BAE59 /* Get Code */,
+				606751C529BF8955004BAE59 /* Forgot */,
+				606751C029BF87E6004BAE59 /* Login */,
+				606751BD29BF6F12004BAE59 /* Main */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				60A29C2329BA41410014B743 /* MainPresenter.swift */,
+				606751C129BF8808004BAE59 /* LoginPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";

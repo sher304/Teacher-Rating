@@ -225,14 +225,26 @@ class MainVC: UIViewController {
     }
     
     @objc func dismissTapped(){
+        let positionY = conatinerOfDetailView.frame.origin.y + 20
+        let positionX = conatinerOfDetailView.frame.origin.x
+        let height = conatinerOfDetailView.frame.height
+        let width = conatinerOfDetailView.frame.width
+        
         UIView.animate(withDuration: 0.5, delay: 0.0, options: [.curveEaseIn]) {
             self.conatinerOfDetailView.alpha = 0
+            self.conatinerOfDetailView.frame = CGRect(x: positionX, y: positionY, width: width, height: height)
         } completion: { _ in }
     }
     
     func dateFieldAnimationOpen(){
+        let positionY = conatinerOfDetailView.frame.origin.y - 20
+        let positionX = conatinerOfDetailView.frame.origin.x
+        let height = conatinerOfDetailView.frame.height
+        let width = conatinerOfDetailView.frame.width
+        
         UIView.animate(withDuration: 0.4, delay: 0.0, options: [.curveEaseIn]) {
             self.conatinerOfDetailView.alpha = 1
+            self.conatinerOfDetailView.frame = CGRect(x: positionX, y: positionY, width: width, height: height)
         } completion: { _ in }    }
     
 }
